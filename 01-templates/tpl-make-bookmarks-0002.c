@@ -7,7 +7,7 @@
 #
 # Example usage:
 #
-# gcc tpl-makebookmarks-0002.c; ./a.out 5 10 > tpl-bookmarks-5x10.html
+# gcc tpl-make-bookmarks-0002.c; ./a.out 5 10 > tpl-bookmarks-5x10.html
 #
 ####################################
 */
@@ -36,6 +36,7 @@ int main(int argc, char *argv[])
   printf("body {\n");
   printf("  background-color: #000000;\n");
   printf("  color: #FFFFFF;\n");
+  printf("  font-family: monospace;\n");
   printf("}\n");
   printf("h1 {\n");
   printf("  background-color: #585858;\n");
