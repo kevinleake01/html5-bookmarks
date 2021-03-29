@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
   printf("<h1></h1>\n");
   for (num1=1; num1<=subhead; num1++)
   {
-    printf("<h2></h2>\n", num1);
+    printf("<h2></h2>\n");
     printf("<p>\n");
     for (num2=1; num2<=entries; num2++)
     {
